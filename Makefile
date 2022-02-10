@@ -9,6 +9,6 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C,W1203,E1101 mlib cli utilscli
+	pylint --disable=R,C
 
 all: install lint test
