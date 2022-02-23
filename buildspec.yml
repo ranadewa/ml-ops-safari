@@ -7,6 +7,5 @@ phases:
   
   build:
     commands:
-      -make lint
       -make test
       -make format
